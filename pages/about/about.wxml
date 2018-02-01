@@ -1,0 +1,33 @@
+<!--pages/about/about.wxml-->
+<import src="../../component/foot/foot.wxml" />
+<import src="../../component/item-about/item-about.wxml" />
+
+<view class="container">
+  <view class="body">
+
+    <view class="item">
+      <template is="item-about" data="{{...aboutList.componeyIntroduce}}" />
+    </view>
+
+    <view class="item">
+        <template is="item-about" data="{{...aboutList.togetherWays}}" />
+        <template is="item-about" data="{{...aboutList.contactUs}}" />
+    </view>
+
+    <view class="item">
+        <template is="item-about" data="{{...aboutList.wxApp}}" />
+        <template is="item-about" data="{{...aboutList.softSystem}}" />
+    </view>
+
+    <view class="item">
+              <template is="item-about" data="{{...aboutList.websizeMade}}" />
+              <view class="item-case" bindtap="jumpToCase">
+              <template is="item-about" data="{{...aboutList.productCase}}" />
+              </view>
+
+    </view>
+
+  </view>
+
+  <template is="foot" />
+</view>

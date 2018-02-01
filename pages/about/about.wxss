@@ -1,0 +1,49 @@
+/* pages/about/about.wxss */
+@import "../../component/foot/foot.wxss";
+@import "../../component/item-about/item-about.wxss";
+
+.container {
+ padding-top: 40rpx;
+ padding-bottom: 30rpx; 
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+}
+
+.item {
+  margin-bottom: 40rpx;
+}
+
+.item:nth-child(2) .item-about:nth-child(1),
+.item:nth-child(3) .item-about:nth-child(1),
+.item .item-case .item-about {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.item:nth-child(2) .item-about:nth-child(1)::after,
+.item:nth-child(3) .item-about:nth-child(1)::after{
+  content: " ";
+  position: absolute;
+  left: 30rpx;
+  bottom: 0;
+  right: 28rpx;
+  height: 0.5rpx;
+  border-bottom: 0.5rpx solid #EBEBEB;
+}
+
+.item .item-case .item-about::after {
+  content: " ";
+  position: absolute;
+  left: 28rpx;
+  right: 28rpx;
+  top: 0;
+  height: 0.5rpx;
+  border-top: 0.5rpx solid #EBEBEB;
+}
+
+
+
+

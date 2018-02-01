@@ -1,0 +1,21 @@
+/* component/item-about/item-about.wxss */
+
+.item-about {
+  display: flex;
+  height: 100rpx;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-left: 45rpx;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+image {
+  height: 40rpx;
+  width: 40rpx;
+}
+
+text {
+  font-weight: bold;
+  margin-left: 40rpx;
+}

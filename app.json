@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/about/about",
+    "pages/story/story",
+    "pages/index/index",
+    "pages/compony-introduce/compony-introduce",
+    "pages/contact-us/contact-us",
+    "pages/soft-system/soft-system",
+    "pages/together-ways/together-ways",
+    "pages/we-app/we-app",
+    "pages/websize/websize"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#4A5D70",
+    "selectedColor": "#51A5DF",
+    "backgroundColor": "#FCFCFC",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "image/ic-home.png",
+        "selectedIconPath": "image/ic-home-selected.png"
+      },
+      {
+        "pagePath": "pages/story/story",
+        "text": "客户故事",
+        "iconPath": "image/ic-story.png",
+        "selectedIconPath": "image/ic-story-selected.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于骆驼",
+        "iconPath": "image/ic-about.png",
+        "selectedIconPath": "image/ic-about-selected.png"
+      }
+    ]
+  }
+}

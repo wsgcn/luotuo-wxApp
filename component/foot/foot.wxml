@@ -1,0 +1,10 @@
+<!--copmonent/foot/foot.wxml-->
+<template name="foot">
+  <view class="foot">
+    <image src="../../image/logo-red.png"></image>
+    <view class="tip">
+      <view class="one-word">做软件，找骆驼</view>
+      <view class="lt-websize">luotuo001.com</view>
+    </view>
+  </view>
+</template>
