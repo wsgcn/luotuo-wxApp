@@ -1,2 +1,21 @@
 <!--pages/story/story.wxml-->
-<text>pages/story/story.wxml</text>
+<import src="../../component/item-story/item-story.wxml"/>
+
+<view class="container">
+  <view class="head">
+    <image class="banner" src="../../image/story-banner.png"></image>
+    <view class="tabs">
+      <block wx:for-items="{{storyTypes}}" wx:for-item="type">
+        <view class="{{type.activeTab ? 'active-tab': 'tab'}}" data-index="{{index}}" bindtap="switchStoryTab">{{type.type}} </view>
+      </block>
+    </view>
+  </view>
+
+  <view class="body">
+     <block wx:for-items="{{storyList}}" wx:for-item="story">
+        <template is="item-story" data="{{...story}}"/>
+     </block>
+  </view>
+
+  <view class="foot"></view>
+</view>

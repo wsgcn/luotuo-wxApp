@@ -1,7 +1,7 @@
 <!--component/item-about/item-about.wxml-->
 <template name="item-about">
   <navigator class="item-about" url="../{{navigateUrl}}/{{navigateUrl}}">
-  <image src="{{imgPath}}"></image>
+  <image src="{{imgPath}}" mode="aspectFit"></image>
      <text>{{text}}</text>
   </navigator> 
 </template>

@@ -1,4 +1,5 @@
 // pages/about/about.js
+
 Page({
 
   /**
@@ -22,7 +23,7 @@ Page({
         navigateUrl: 'contact-us'
       },
       wxApp: {
-        imgPath: '',
+        imgPath: '../../image/we-app.png',
         text:'微信小程序',
         navigateUrl: 'we-app'
       },

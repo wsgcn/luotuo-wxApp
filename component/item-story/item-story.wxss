@@ -1,0 +1,48 @@
+/* component/item-story/item-story.wxss */
+.item-story{
+  position: relative;
+  display: flex;
+  padding: 25rpx;
+  background-color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.item-story::after{
+  content: " ";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0.5rpx;
+  border-bottom: 0.5rpx solid #E0E7EB;
+}
+
+.story-content{
+  box-sizing: border-box;
+  margin-left: 20rpx;
+}
+
+.story-img{
+  width: 200rpx;
+  height: 150rpx;
+}
+
+.story-content-ft-1,
+.story-content-ft-2{
+  display: flex;
+  font-size: 21rpx;
+  margin-top: 40rpx;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pv-img {
+  width: 22rpx;
+  height: 14rpx;
+  margin-right: 15rpx;
+}
+
+.industry {
+  margin-left: 20rpx;
+}

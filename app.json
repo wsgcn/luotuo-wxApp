@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/story-detail/story-detail",
     "pages/story/story",
     "pages/about/about",
+    "pages/story-detail/story-detail",
     "pages/index/index",
     "pages/compony-introduce/compony-introduce",
     "pages/contact-us/contact-us",

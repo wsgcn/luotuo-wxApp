@@ -1,0 +1,22 @@
+<!--component/item-story/item-story.wxml-->
+<template name="item-story">
+    <view class="item-story">
+       <image class="story-img" src="{{url}}" mode="scaleToFill"></image>
+       
+       <view class="story-content">
+          <view class="story-content-hd">{{title}}</view>
+          <view class="story-content-ft-1" hidden="{{!isStoryFootShow}}">
+             <text class="customer">客户：{{customer}}</text>
+             <text class="industry">行业：{{industry}}</text>
+          </view>
+
+          <view class="story-content-ft-2" hidden="{{!isWxAppNewsShow}}">
+             <text class="date">{{date}}</text>
+             <view class="pv-view">
+             <image class="pv-img" src='../../image/pv-img.png' mode='widthFix'></image>
+             <text class="pv">{{pv}}</text>
+             </view>
+          </view>
+       </view>
+    </view>
+</template>

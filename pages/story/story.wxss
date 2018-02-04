@@ -1,1 +1,42 @@
 /* pages/story/story.wxss */
+@import '../../component/item-story/item-story.wxss';
+
+.head {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 260rpx;
+}
+
+.tabs{
+  display: flex;
+  width: 100%;
+  padding-bottom: 20rpx;
+  padding-top: 20rpx;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+}
+
+ .head .tab,
+ .active-tab {
+   padding: 20rpx 30rpx;
+   font-weight: bold;
+} 
+
+.active-tab {
+  color: #51A5DF;
+  border: 2rpx solid #51A5DF;
+  border-radius: 40rpx;
+}
+
+.body {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

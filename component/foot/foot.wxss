@@ -1,18 +1,23 @@
 /* copmonent/foot/foot.wxss */
 .foot {
+  position: fixed;
   display: flex;
+  width: 100%;
+  bottom: 30rpx;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
   color: #BEC4C8;
 }
 
-image {
-  height: 70rpx;
-  width: 70rpx;
-  margin-right: 10rpx;
+.foot image {
+  height: 50rpx;
+  width: 50rpx;
+  margin-right: 15rpx;
 }
 
 .one-word {
-  font-size: 28rpx;
+  font-size: 24rpx;
 }
 
 .lt-websize {
