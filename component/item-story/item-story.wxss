@@ -19,20 +19,28 @@
 }
 
 .story-content{
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   box-sizing: border-box;
-  margin-left: 20rpx;
 }
 
+
 .story-img{
+  flex: 2;
   width: 200rpx;
   height: 150rpx;
+  margin-right: 20rpx;
+  padding-top: 4rpx; 
+  box-sizing: border-box;
 }
+
 
 .story-content-ft-1,
 .story-content-ft-2{
   display: flex;
   font-size: 21rpx;
-  margin-top: 40rpx;
   align-items: center;
   justify-content: space-between;
 }

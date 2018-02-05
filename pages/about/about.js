@@ -34,7 +34,7 @@ Page({
       },
       websizeMade: {
         imgPath: '../../image/websize-custom-made.png',
-        text: '网址定制',
+        text: '网站定制',
         navigateUrl: 'websize'
       },
       productCase: {

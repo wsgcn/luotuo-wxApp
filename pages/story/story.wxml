@@ -12,10 +12,14 @@
   </view>
 
   <view class="body">
-     <block wx:for-items="{{storyList}}" wx:for-item="story">
+    <scroll-view scroll-y >
+    <block wx:for-items="{{storyList}}" wx:for-item="story">
         <template is="item-story" data="{{...story}}"/>
      </block>
+      </scroll-view>
   </view>
+   
+     
 
   <view class="foot"></view>
 </view>

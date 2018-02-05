@@ -1,6 +1,6 @@
 <!--component/item-story/item-story.wxml-->
-<template name="item-story">
-    <view class="item-story">
+<template name="item-story" >
+    <navigator class="item-story" url="../story-detail/story-detail?storyId={{storyId}}">
        <image class="story-img" src="{{url}}" mode="scaleToFill"></image>
        
        <view class="story-content">
@@ -18,5 +18,5 @@
              </view>
           </view>
        </view>
-    </view>
+    </navigator>
 </template>
